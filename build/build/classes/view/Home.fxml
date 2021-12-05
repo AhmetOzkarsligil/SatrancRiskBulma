@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #02030A;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
+   <children>
+      <VBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" prefHeight="800.0" prefWidth="293.0" style="-fx-background-color: #05071F;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fx:id="imageView_Pic" fitHeight="109.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/ahmetCircle.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="12.0" top="50.0" />
+               </VBox.margin>
+            </ImageView>
+            <Label text="Ahmet Ökkeş ÖZKARSLIGİL" textFill="#e7e5e5">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Label>
+            <Button fx:id="btnCV" alignment="BASELINE_LEFT" graphicTextGap="23.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleClicks" prefHeight="52.0" prefWidth="293.0" stylesheets="@style.css" text=" Öz Geçmiş">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/profiles.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="38.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnHome" alignment="BASELINE_LEFT" graphicTextGap="23.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleClicks" prefHeight="52.0" prefWidth="293.0" stylesheets="@style.css" text="Ana Sayfa">
+               <graphic>
+                  <ImageView fitHeight="37.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8_Home_32px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="38.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnKilavuz" alignment="BASELINE_LEFT" graphicTextGap="23.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleClicks" prefHeight="52.0" prefWidth="293.0" stylesheets="@style.css" text="Uygulama Kullanim Kilavuzu">
+               <graphic>
+                  <ImageView fitHeight="37.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/open-book_icon-icons.com_70021.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="38.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnUygulama" alignment="BASELINE_LEFT" graphicTextGap="23.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleClicks" prefHeight="52.0" prefWidth="293.0" stylesheets="@style.css" text="Satranc Risk Bulma Uygulamasi">
+               <graphic>
+                  <ImageView fitHeight="37.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/chess_94824.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="38.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnGitLink" alignment="BASELINE_LEFT" graphicTextGap="23.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleClicks" prefHeight="52.0" prefWidth="293.0" stylesheets="@style.css" text="Uygulama Github Link">
+               <graphic>
+                  <ImageView fitHeight="37.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/external_link_icon_152621.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="38.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children></VBox>
+      <GridPane alignment="TOP_RIGHT" layoutX="293.0" layoutY="-2.0" prefHeight="800.0" prefWidth="908.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="457.0" minWidth="10.0" prefWidth="457.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="454.0" minWidth="10.0" prefWidth="452.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="54.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="770.0" minHeight="10.0" prefHeight="746.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="lblTitle" text="Ana Sayfa" textFill="#e7e5e5" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Button fx:id="closeButton" mnemonicParsing="false" onAction="#exitClick" prefHeight="51.0" prefWidth="56.0" stylesheets="@style.css" text="X" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <StackPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="745.0" prefWidth="907.0" style="-fx-background-color: #02030A;" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <children>
+                  <Pane fx:id="panelKilavuz" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="750.0" prefWidth="907.0" style="-fx-background-color: #35363A;" />
+                  <Pane fx:id="panelUygulama" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="750.0" prefWidth="910.0" style="-fx-background-color: #35363A;" />
+                  <Pane fx:id="panelAnaSayfa" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="750.0" prefWidth="910.0" style="-fx-background-color: #35363A;">
+                     <children>
+                        <Label alignment="TOP_LEFT" layoutX="76.0" layoutY="39.0" prefHeight="637.0" prefWidth="725.0" text="Merhaba&#10;&#10;Bu yazilimin Satranc Risk Bulma Uygulaması bölümü içerisinde Satranc tahtasındaki tüm taşlar ve durumları için risk &#10;hesaplanabilmektedir.&#10;&#10;Satranç taşları dosyadan çekilerek  &quot;model.tas&quot; paketi içerisinde oluşturulan Factory Design Pattern ile tas etiketlerine&#10;göre otomatik olarak taşlar oluşturulmaktadır.&#10;&#10;Taşların tehtit ettiği alanlar bulunurken de  &quot;controller.vektor&quot; paketi içerisinde  Strategy  Desing  Pattern  kullanılarak,&#10;Taşların hareket kabiliyetleri belirlenmiştir. &quot;controller.vektor&quot; içerisindeki algoritma, &quot;model.tas&quot; paketi içerisindeki &#10;SatrancTasi.java sınıfı içerisinde yonBoyuncaTehtitSorgula methodu içerisinde hangi vektor çağırıyorsa onun algorit -&#10;masının eklenmesi sağlanmıştır. &#10;&#10;Bana gelen mail de   &quot;Not: Vezir,at ve piyon tarafından tehdit olan durumları ele alın&quot;    ifadesi  yer  almakta  olmasına &#10;rağmen Yazilimin temel yapisi sade ve nesneye yönelik programlamaya uygun şekilde olduğundan dolayı  diğer taşları&#10;eklemem de kolay ve hızlı olmuştur bunun için tüm taş çeşitleri yazılıma eklenmiştir.&#10;&#10;Ayrıca bana gönderilen dosyadaki  &quot;board1.txt&quot; isimli Satranç tahtasindaki risk hesaplamasında 2b deki siyah atı - 4f de &#10;yer alan fil tehtit etmesine rağmen  &quot;sonuçlar.txt&quot;  klasöründe bu taşın risk puanının hesaplanmadiği gözlemlenmiştir. &#10;Bu uygulamada tüm taşlar kontrol edilmektedir bu yüzden board1.txt dosyasındaki  2b deki siyah atın da risk puanı &#10;hesaplanmaktadır.&#10;&#10;Uygulamanın arayüzün bölümünde girilen dosya yolunun hep doğru girildiği kabul edilmiştir bunun gibi bazı kontroller &#10;eksiktir. Ancak genel hatlarıyla üzerinde zaman harcadığım bir yazılım oldu.  Çünkü sizlerle çalışmayı istiyorum ve birlikte &#10;daha güzel işler başarabileceğimizi ve kendimi yazılım alanında daha çok geliştirebileceğimi umuyorum.  &#10;&#10;Umarım sizin için hazırladığım uygulamayı beğenirsiniz. &#10;&#10;Saygılarımla&#10; &#10;" textAlignment="JUSTIFY" textFill="#d7d7d7">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </StackPane>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

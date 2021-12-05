@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SatrancRiskBulma.jnlp">
+  <information>
+    <title>SatrancRiskBulma</title>
+    <vendor>ahmetOzkarsligil</vendor>
+    <description>SatrancRiskBul</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SatrancRiskBulma.jar" size="895217" download="eager" />
+    <jar href="libs\javafx-swt.jar" size="37110" download="eager" />
+    <jar href="libs\javafx.base.jar" size="745861" download="eager" />
+    <jar href="libs\javafx.controls.jar" size="2545280" download="eager" />
+    <jar href="libs\javafx.fxml.jar" size="129482" download="eager" />
+    <jar href="libs\javafx.graphics.jar" size="4252454" download="eager" />
+    <jar href="libs\javafx.media.jar" size="275923" download="eager" />
+    <jar href="libs\javafx.swing.jar" size="88801" download="eager" />
+    <jar href="libs\javafx.web.jar" size="720357" download="eager" />
+    <jar href="libs\org.eclipse.fx.ide.css.jfx8_3.7.0.202010120832.jar" size="34538" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="controller.Main"  name="SatrancRiskBul" />
+  <update check="background"/>
+</jnlp>
