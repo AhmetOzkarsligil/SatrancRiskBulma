@@ -100,7 +100,7 @@ public class HomeController extends Application    {
       		  // lblTitle.setText("Git Link");
         	   
       		   Hyperlink link = new Hyperlink();
-      		   link.setText("http://google.com");
+      		   link.setText("https://github.com/AhmetOzkarsligil/SatrancRiskBulma.git");
       		   
       		   HostServices hostServices = getHostServices();
       		   getHostServices().showDocument(link.getText());
