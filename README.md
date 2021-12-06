@@ -62,4 +62,11 @@ Bu vektorler strateji tasarım deseni kullanılarak oluşturulmuştur. Örneğin
 Kod içerisinde yorum satırları bulunmaktadır ancak anlaşılmayan bir yer olduğunda benimle iletişime geçin lütfen.
    
 
-  
+Ayrıca bana gönderilen dosyadaki  "board1.txt" isimli Satranç tahtasindaki risk hesaplamasında 2b deki siyah atı - 4f de 
+yer alan fil tehtit etmesine rağmen  "sonuçlar.txt"  klasöründe bu taşın risk puanının hesaplanmadiği gözlemlenmiştir. 
+Bu uygulamada tüm taşlar kontrol edilmektedir bu yüzden board1.txt dosyasındaki  2b deki siyah atın da risk puanı 
+hesaplanmaktadır. 
+board1.txt		Siyah:135		değeri hatalıdır
+board1.txt		Siyah:133.5		bu değer doğrudur.
+
+
